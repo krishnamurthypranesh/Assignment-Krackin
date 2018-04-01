@@ -1,3 +1,6 @@
+# Place this file in the api folder of the website. For e.g. if example.com is your domain place this file in example.com/api
+# Make sure that the url has been standardized by creating a .htaccess file. 
+
 <?php
 # connect to database
 
