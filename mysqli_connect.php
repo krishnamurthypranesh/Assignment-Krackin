@@ -1,13 +1,13 @@
 <?php 
 # setting the constants
 
-define("server", "localhost");
+define("server", "");  # enter servername here
 
-define("user", "testweb");
+define("user", "");  # enter username here
 
-define("pass", "turtledove");
+define("pass", "");  # enter password here
 
-define("db", "courses");
+define("db", "courses");  # db name
 
 # establishing connection with the server
 $conn = @mysqli_connect(server, user, pass, db);
